@@ -3,7 +3,7 @@ import numpy as np
 import pickle
 
 # Load model
-with open("C:/Users/prudh/OneDrive/Desktop/Machine Learning/Projects/Gold Price Prediction/gold.sav", "rb") as f:
+with open("gold.sav", "rb") as f:
     model = pickle.load(f)
 
 st.set_page_config(page_title="Gold Price Predictor", layout="centered")
